@@ -13,7 +13,8 @@ The purpose of a new build system is:
   * use browserify to generate a single bundle
   * publish angular node modules on npm (`ng-pkg`)
 
-**All required changes in the angular codebase must be automated to keep in sync with angular changes easily**
+**All required changes in the angular codebase must be automated to keep in sync
+with angular changes easily**
 
 ### Nice To Have
 
@@ -30,3 +31,47 @@ Having this build system working we will be able to:
   * choose which angular features to use and which not
   * create alternative distributions of angular
   * use node modules instead of angular modules/di
+
+Roadmap
+-------
+
+### Angular core helpers
+
+  * `copy`
+  * `extend`
+  * `merge`
+  * `equals`
+  * `element`
+  * `forEach`
+  * `noop`
+  * `bind`
+  * `toJson`
+  * `fromJson`
+  * `identity`
+  * `isUndefined`
+  * `isDefined`
+  * `isString`
+  * `isFunction`
+  * `isObject`
+  * `isNumber`
+  * `isElement`
+  * `isArray`
+  * `isDate`
+  * `lowercase`
+  * `uppercase`
+
+### Angular services
+
+  * `compile.js`
+  * `document.js`
+  * `http.js`
+  * `httpBackend.js`
+  * `interpolate.js`
+  * `interval.js`
+  * `location.js`
+  * `log.js`
+  * `parse.js`
+  * `q.js`
+  * `rootScope.js`
+  * `timeout.js`
+  * `window.js`
